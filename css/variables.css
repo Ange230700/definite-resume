@@ -1,0 +1,11 @@
+:root {
+  /* A4 dimensions */
+  --page-width: 2480px;
+  --page-height: 3508px;
+
+  /* Sizes */
+  --standard-unit-size: 10px;
+
+  /* Font family */
+  --main-font-family: "Urbanist", sans-serif;
+}
