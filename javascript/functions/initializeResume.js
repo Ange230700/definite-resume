@@ -1,9 +1,11 @@
 // javascript\functions\initializeResume.js
 
-import injectResumeTitle from "./injectResumeTitle.js";
+import displayResumeTitle from "./displayResumeTitle.js";
+import displayContactInfo from "./displayContactInfo.js";
 
 function initializeResume() {
-  injectResumeTitle();
+  displayResumeTitle();
+  displayContactInfo();
 }
 
 export default initializeResume;
