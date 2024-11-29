@@ -5,6 +5,7 @@ import hardSkills from "./hardSkills.js";
 import softSkills from "./softSkills.js";
 import experiencesList from "./experiencesList.js";
 import educationList from "./educationList.js";
+import hobbiesList from "./hobbiesList.js";
 
 const resumeData = {
   resumeTitle: "Jane Doe's Resume",
@@ -34,6 +35,11 @@ const resumeData = {
   education: {
     sectionTitle: "Education",
     list: educationList,
+  },
+
+  hobbies: {
+    sectionTitle: "Hobbies & Interests",
+    list: hobbiesList,
   },
 };
 

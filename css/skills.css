@@ -1,0 +1,26 @@
+/* skills.css */
+
+.competences-techniques-list,
+.soft-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: var(--spacing);
+}
+
+.competences-techniques-list-item,
+.soft-skills-list-item {
+  width: 48%;
+  margin-bottom: var(--spacing);
+}
+
+.competences-techniques-list-item:nth-child(2n + 1),
+.soft-skills-list-item:nth-child(2n + 1) {
+  border-right: 1px solid black;
+  padding-right: var(--spacing);
+}
+
+.competences-techniques-list-item:nth-child(2n),
+.soft-skills-list-item:nth-child(2n) {
+  padding-left: var(--spacing);
+}

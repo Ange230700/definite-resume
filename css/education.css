@@ -1,0 +1,17 @@
+/* css\education.css */
+
+.formation-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing);
+}
+
+.formation-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing);
+}
+
+.school {
+  font-weight: 600;
+}

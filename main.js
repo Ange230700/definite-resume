@@ -1,5 +1,7 @@
 // main.js
 
-import initializeResume from "./javascript/functions/initializeResume.js";
+import loadResumeContent from "./javascript/functions/loadResumeContent.js";
 
-document.addEventListener("DOMContentLoaded", initializeResume);
+document.addEventListener("DOMContentLoaded", () => {
+  loadResumeContent();
+});

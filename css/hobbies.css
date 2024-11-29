@@ -1,0 +1,22 @@
+/* css/hobbies.css */
+
+.hobbies {
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.hobbies h3 {
+  margin-bottom: var(--spacing);
+}
+
+.hobbies ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing);
+}
+
+.hobbies li {
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  border-radius: 4px;
+}

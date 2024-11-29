@@ -1,0 +1,41 @@
+/* contact.css */
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing);
+}
+
+.basic-contact-info,
+.socials-wrapper {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-contact-info .mail,
+.basic-contact-info .phone-number {
+  width: fit-content;
+}
+
+.basic-contact-info .mail a,
+.basic-contact-info .phone-number a,
+.socials .socials-link-text {
+  color: inherit;
+  text-decoration: dashed underline;
+}
+
+.socials-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: var(--spacing);
+}
