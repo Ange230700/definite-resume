@@ -32,7 +32,7 @@ const contact = `
           .map(
             (social) => `
             <li class="socials" id="${social.id}">
-              <a href="${social.link}" target="_blank"      rel="noopener noreferrer">
+              <a class="socials-link-text" href="${social.link}" target="_blank" rel="noopener noreferrer">
               <img src="${social.icon}" alt="${social.alt}" />
               ${social.text}
               </a>

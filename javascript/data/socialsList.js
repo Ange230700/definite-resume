@@ -2,20 +2,26 @@
 
 const socialsList = [
   {
-    icon: "/assets/icons/svg/linkedin.svg",
+    icon: "./assets/icons/linkedin.svg",
     alt: "LinkedIn icon",
     link: "https://www.linkedin.com/in/janedoe/",
     text: "LinkedIn",
     id: "linkedin-link",
   },
   {
-    icon: "/assets/icons/svg/github.svg",
+    icon: "./assets/icons/github.svg",
     alt: "GitHub icon",
     link: "https://github.com/janedoe",
     text: "GitHub",
     id: "github-link",
   },
-  // Add more social links if necessary
+  {
+    icon: "./assets/icons/portfolio-link.svg",
+    alt: "Portfolio icon",
+    link: "http://vps-80a85dd9.vps.ovh.net:5000/",
+    text: "Portfolio",
+    id: "portfolio-link",
+  },
 ];
 
 export default socialsList;
