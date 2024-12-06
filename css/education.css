@@ -3,13 +3,13 @@
 .formation-list {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--spacing);
+  margin-bottom: calc(var(--spacing) * 1);
 }
 
 .formation-list-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--spacing);
+  margin-bottom: calc(var(--spacing) * 1);
 }
 
 .school {

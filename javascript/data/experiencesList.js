@@ -2,7 +2,7 @@
 
 const experiencesList = [
   {
-    projectDescription: "Backend Developer at Tech Solutions",
+    project_description: "Backend Developer at Tech Solutions",
     tasks: [
       "Developed RESTful APIs using Django REST Framework.",
       "Implemented authentication and authorization systems.",
@@ -10,7 +10,7 @@ const experiencesList = [
     ],
   },
   {
-    projectDescription: "Software Engineer Intern at CodeWorks",
+    project_description: "Software Engineer Intern at CodeWorks",
     tasks: [
       "Assisted in developing microservices architecture.",
       "Wrote unit tests and documentation.",

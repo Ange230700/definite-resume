@@ -1,7 +1,5 @@
 // main.js
 
-import loadResumeContent from "./javascript/functions/loadResumeContent.js";
+import handleResumeContentLoading from "./javascript/events/handlers.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadResumeContent();
-});
+document.addEventListener("DOMContentLoaded", handleResumeContentLoading);

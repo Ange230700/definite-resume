@@ -10,12 +10,9 @@
   font-size: calc(var(--standard-unit-size) * 5);
 
   /* Spacing */
-  --spacing: calc(var(--standard-font-size) * 1);
+  --spacing: calc(var(--standard-unit-size) * 1);
   padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
 
   /* Font family */
   --main-font-family: "Urbanist", sans-serif;
-
-  /* Base font size */
-  --base-font-size: 12pt;
 }

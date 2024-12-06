@@ -8,37 +8,35 @@ import educationList from "./educationList.js";
 import hobbiesList from "./hobbiesList.js";
 
 const resumeData = {
-  resumeTitle: "Jane Doe's Resume",
+  header: {
+    name: "Jane Doe",
+    title: "Full Stack Developer",
+  },
 
   contact: {
-    sectionTitle: "Contact",
-    name: "Jane Doe",
-    email: "jane.doe@example.com",
-    phoneNumber: "+1 (555) 987-6543",
-    address: "456 Elm Street, Hometown, Country",
     socials: socialsList,
   },
 
   skills: {
-    sectionTitle: "Skills",
-    hardSkillsTitle: "Technical Skills",
-    hardSkills: hardSkills,
+    section_title: "Skills",
+    hard_skills_title: "Technical Skills",
+    hard_skills: hardSkills,
     softSkillsTitle: "Soft Skills",
     softSkills: softSkills,
   },
 
   experiences: {
-    sectionTitle: "Experience",
+    section_title: "Experience",
     list: experiencesList,
   },
 
   education: {
-    sectionTitle: "Education",
+    section_title: "Education",
     list: educationList,
   },
 
   hobbies: {
-    sectionTitle: "Hobbies & Interests",
+    section_title: "Hobbies & Interests",
     list: hobbiesList,
   },
 };
