@@ -1,0 +1,22 @@
+/* client\css\contact.css */
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials-wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.socials .socials-link-text {
+  color: inherit;
+  text-decoration: dashed underline;
+}
+
+.socials-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
