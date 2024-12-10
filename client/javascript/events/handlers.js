@@ -7,6 +7,7 @@ import {
   createExperiencesSection,
   createEducationSection,
   createHobbiesSection,
+  createIntroductionSection,
 } from "../components/creation.js";
 import {
   addNewContentToHtmlElement,
@@ -25,6 +26,7 @@ function handleResumeContentLoading() {
     `
       ${createHeader()}
       ${createContactSection()}
+      ${createIntroductionSection()}
       ${createSkillsSection()}
       ${createExperiencesSection()}
       ${createEducationSection()}
