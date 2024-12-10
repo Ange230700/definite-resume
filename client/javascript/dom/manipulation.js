@@ -1,6 +1,6 @@
 // client\javascript\dom\manipulation.js
 
-import resumeData from "../data/resumeData";
+import resumeData from "../data/resumeData.js";
 
 /* ———— HELPERS ———— */
 function getHtmlElement(selector) {
