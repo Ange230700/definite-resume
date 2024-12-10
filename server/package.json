@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "scripts": {
+    "clean": "rm -rf ./node_modules/ ./package-lock.json",
+    "reboot": "npm run clean && npm install",
+    "prettier:lint": "prettier --write . && eslint --fix ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "puppeteer": "^23.10.2"
+  }
+}
