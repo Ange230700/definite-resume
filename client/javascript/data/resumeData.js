@@ -22,7 +22,7 @@ const resumeData = {
   introduction: {
     section_title: "Introduction",
     content:
-      "Je dispose de solides bases dans les technologies frontend et backend. J'ai contribué à la réalisation de projets web en employant des pratiques modernes pour de meilleures performance et une bonne expérience utilisateur. Mon objectif est de mettre mes compétences à profit pour participer à des solutions innovantes et impactantes.",
+      "J'ai de solides compétences en technologies frontend et backend. J'ai participé à divers projets web en utilisant des pratiques modernes pour garantir performance et expérience utilisateur optimale. Je souhaite mettre mes compétences au service de solutions innovantes et impactantes.",
   },
 
   skills: {

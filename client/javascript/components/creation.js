@@ -44,7 +44,6 @@ function createExperiencesSection() {
   return `
     <section class="experiences">
       <h3></h3>
-      <h4></h4>
       <ul class="experiences-list"></ul>
     </section>
   `;

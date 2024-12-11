@@ -24,3 +24,8 @@
 .soft-skills-list-item:nth-child(3n + 2) {
   border-right: 5px solid black;
 }
+
+.competences-techniques-list-item:last-child,
+.soft-skills-list-item:last-child {
+  border-right: none;
+}
