@@ -6,7 +6,9 @@ const path = require("path");
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  await page.goto("https://ange230700.github.io/client/", { waitUntil: "networkidle0" }); // Adjust the URL and port if necessary
+  await page.goto("https://ange230700.github.io/client/", {
+    waitUntil: "networkidle0",
+  }); // Adjust the URL and port if necessary
   await page.pdf({
     path: path.join(__dirname, "resume.pdf"),
     format: "A4",

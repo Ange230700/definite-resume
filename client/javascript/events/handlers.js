@@ -14,6 +14,7 @@ import {
   setEducationSection,
   setExperiencesSection,
   setHobbiesSection,
+  setIntroductionSection,
   setResumeHeader,
   setSkillsSection,
   setSocialsLinks,
@@ -36,6 +37,7 @@ function handleResumeContentLoading() {
 
   setResumeHeader();
   setSocialsLinks();
+  setIntroductionSection();
   setSkillsSection();
   setExperiencesSection();
   setEducationSection();

@@ -22,10 +22,8 @@ function createContactSection() {
 function createIntroductionSection() {
   return `
     <section class="introduction">
-      <h3>Introduction</h3>
-      <p>
-        Driven and passionate Full Stack Developer with a focus on front-end development. I have a strong foundation in web technologies and programming languages such as HTML, CSS, JavaScript, React, and Node.js. I am a quick learner and a team player who is always looking to improve my skills and knowledge.
-      </p>
+      <h3></h3>
+      <p></p>
     </section>
   `;
 }
