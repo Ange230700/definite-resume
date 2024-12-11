@@ -32,13 +32,17 @@ function setSocialsLinks() {
     li.classList.add("socials");
     li.id = social.id;
 
+    
     const a = document.createElement("a");
     a.classList.add("socials-link-text");
     a.href = social.link;
-
+    
     a.appendChild(document.createTextNode(` ${social.text}`));
+    
+    const em = document.createElement("em");
+    em.appendChild(a);
 
-    li.appendChild(a);
+    li.appendChild(em);
     getHtmlElement(".socials-wrapper").appendChild(li);
   });
 }
@@ -102,13 +106,13 @@ function setExperiencesSection() {
     li.classList.add("experiences-list-item");
 
     const projectTitle = document.createElement("h4");
-    projectTitle.innerText = `● ${experience.project_description}`;
+    projectTitle.innerHTML = `› ${experience.project_description}`;
     li.appendChild(projectTitle);
 
     const tasksList = document.createElement("ul");
     experience.tasks.forEach((task) => {
       const taskLi = document.createElement("li");
-      taskLi.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;- ${task}`;
+      taskLi.innerHTML = `${task}`;
       tasksList.appendChild(taskLi);
     });
 
@@ -133,17 +137,15 @@ function setEducationSection() {
 
     const formationTitle = document.createElement("p");
     formationTitle.classList.add("formation-title-and-school");
-    formationTitle.innerText = `${educationItem.formation_title} | `;
+    formationTitle.innerHTML = `${educationItem.formation_title} | `;
     li.appendChild(formationTitle);
 
-    const school = document.createElement("span");
-    school.classList.add("school");
-    school.innerText = educationItem.school;
+    const school = document.createElement("strong");
+    school.innerHTML = educationItem.school;
     formationTitle.appendChild(school);
 
-    const formationSpan = document.createElement("p");
-    formationSpan.classList.add("formation-date");
-    formationSpan.innerText = educationItem.formation_span;
+    const formationSpan = document.createElement("em");
+    formationSpan.innerHTML = educationItem.formation_span;
     li.appendChild(formationSpan);
 
     formationListElement.appendChild(li);

@@ -11,7 +11,7 @@ import {
 
 const resumeData = {
   header: {
-    name: "Jane Doe",
+    name: "Ange KOUAKOU",
     title: "Full Stack Developer",
   },
 
@@ -22,19 +22,19 @@ const resumeData = {
   introduction: {
     section_title: "Introduction",
     content:
-      "Driven and passionate Full Stack Developer with a focus on front-end development. I have a strong foundation in web technologies and programming languages such as HTML, CSS, JavaScript, React, and Node.js. I am a quick learner and a team player who is always looking to improve my skills and knowledge.",
+      "Je dispose de solides bases dans les technologies frontend et backend. J'ai contribué à la réalisation de projets web en employant des pratiques modernes pour de meilleures performance et une bonne expérience utilisateur. Mon objectif est de mettre mes compétences à profit pour participer à des solutions innovantes et impactantes.",
   },
 
   skills: {
-    section_title: "Skills",
-    hard_skills_title: "Technical Skills",
+    section_title: "Compétences",
+    hard_skills_title: "Compétences techniques",
     hard_skills: hardSkills,
     softSkillsTitle: "Soft Skills",
     softSkills: softSkills,
   },
 
   experiences: {
-    section_title: "Experience",
+    section_title: "Projets",
     list: experiencesList,
   },
 
@@ -44,7 +44,7 @@ const resumeData = {
   },
 
   hobbies: {
-    section_title: "Hobbies & Interests",
+    section_title: "Hobbies",
     list: hobbiesList,
   },
 };
