@@ -1,4 +1,4 @@
-// eslint.config.js
+// eslint.config.mjs
 
 import config from "eslint-config-prettier";
 
@@ -6,6 +6,11 @@ import config from "eslint-config-prettier";
 export default [
   ...[].concat(config),
   {
-    ignores: ["**/node_modules/**", "**/.vscode/**", "**/client/**", "**/server/**"],
+    ignores: [
+      "**/node_modules/**",
+      "**/.vscode/**",
+      "**/client/**",
+      "**/server/**",
+    ],
   },
 ];

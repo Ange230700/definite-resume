@@ -1,11 +1,13 @@
 // client\javascript\data\resumeData.js
 
-import socialsList from "./socialsList.js";
-import hardSkills from "./hardSkills.js";
-import softSkills from "./softSkills.js";
-import experiencesList from "./experiencesList.js";
-import educationList from "./educationList.js";
-import hobbiesList from "./hobbiesList.js";
+import {
+  socialsList,
+  hardSkills,
+  softSkills,
+  experiencesList,
+  educationList,
+  hobbiesList,
+} from "./lists.js";
 
 const resumeData = {
   header: {
@@ -15,6 +17,12 @@ const resumeData = {
 
   contact: {
     socials: socialsList,
+  },
+
+  introduction: {
+    section_title: "Introduction",
+    content:
+      "Driven and passionate Full Stack Developer with a focus on front-end development. I have a strong foundation in web technologies and programming languages such as HTML, CSS, JavaScript, React, and Node.js. I am a quick learner and a team player who is always looking to improve my skills and knowledge.",
   },
 
   skills: {
