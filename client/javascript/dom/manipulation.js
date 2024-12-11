@@ -43,6 +43,19 @@ function setSocialsLinks() {
   });
 }
 
+/* ———— INTRODUCTION ———— */
+function setIntroductionSection() {
+  setHtmlElementContent(
+    getHtmlElement(".introduction h3"),
+    resumeData.introduction.section_title,
+  );
+
+  setHtmlElementContent(
+    getHtmlElement(".introduction p"),
+    resumeData.introduction.content,
+  );
+}
+
 /* ———— SKILLS ———— */
 function setSkillsSection() {
   setHtmlElementContent(
@@ -158,6 +171,7 @@ export {
   addNewContentToHtmlElement,
   setResumeHeader,
   setSocialsLinks,
+  setIntroductionSection,
   setSkillsSection,
   setExperiencesSection,
   setEducationSection,

@@ -7,12 +7,14 @@ import {
   createExperiencesSection,
   createEducationSection,
   createHobbiesSection,
+  createIntroductionSection,
 } from "../components/creation.js";
 import {
   addNewContentToHtmlElement,
   setEducationSection,
   setExperiencesSection,
   setHobbiesSection,
+  setIntroductionSection,
   setResumeHeader,
   setSkillsSection,
   setSocialsLinks,
@@ -25,6 +27,7 @@ function handleResumeContentLoading() {
     `
       ${createHeader()}
       ${createContactSection()}
+      ${createIntroductionSection()}
       ${createSkillsSection()}
       ${createExperiencesSection()}
       ${createEducationSection()}
@@ -34,6 +37,7 @@ function handleResumeContentLoading() {
 
   setResumeHeader();
   setSocialsLinks();
+  setIntroductionSection();
   setSkillsSection();
   setExperiencesSection();
   setEducationSection();

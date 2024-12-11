@@ -19,6 +19,15 @@ function createContactSection() {
   `;
 }
 
+function createIntroductionSection() {
+  return `
+    <section class="introduction">
+      <h3></h3>
+      <p></p>
+    </section>
+  `;
+}
+
 function createSkillsSection() {
   return `
     <section class="competences">
@@ -62,6 +71,7 @@ function createHobbiesSection() {
 export {
   createHeader,
   createContactSection,
+  createIntroductionSection,
   createSkillsSection,
   createExperiencesSection,
   createEducationSection,
