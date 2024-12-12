@@ -2,11 +2,9 @@
 
 function createContactSection() {
   return `
-    <section class="contact">
       <div class="contact-wrapper">
         <ul class="socials-wrapper"></ul>
       </div>
-    </section>
   `;
 }
 
