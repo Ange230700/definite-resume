@@ -1,21 +1,20 @@
 // javascript\components\creation.js
 
+function createContactSection() {
+  return `
+      <div class="contact-wrapper">
+        <ul class="socials-wrapper"></ul>
+      </div>
+  `;
+}
+
 function createHeader() {
   return `
     <header>
       <h1></h1>
       <h3></h3>
+      ${createContactSection()}
     </header>
-  `;
-}
-
-function createContactSection() {
-  return `
-    <section class="contact">
-      <div class="contact-wrapper">
-        <ul class="socials-wrapper"></ul>
-      </div>
-    </section>
   `;
 }
 
@@ -44,7 +43,6 @@ function createExperiencesSection() {
   return `
     <section class="experiences">
       <h3></h3>
-      <h4></h4>
       <ul class="experiences-list"></ul>
     </section>
   `;

@@ -11,7 +11,7 @@
 
   /* Spacing */
   --spacing: calc(var(--standard-unit-size) * 1);
-  padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
+  padding: calc(var(--spacing) * 0) calc(var(--spacing) * 4);
 
   /* Font family */
   --main-font-family: "Urbanist", sans-serif;

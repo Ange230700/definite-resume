@@ -2,7 +2,6 @@
 
 import {
   createHeader,
-  createContactSection,
   createSkillsSection,
   createExperiencesSection,
   createEducationSection,
@@ -26,7 +25,6 @@ function handleResumeContentLoading() {
     resumeWrapper,
     `
       ${createHeader()}
-      ${createContactSection()}
       ${createIntroductionSection()}
       ${createSkillsSection()}
       ${createExperiencesSection()}
