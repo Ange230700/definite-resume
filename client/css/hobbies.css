@@ -5,10 +5,6 @@
   margin-bottom: calc(var(--spacing) * 1);
 }
 
-.hobbies h3 {
-  margin-bottom: calc(var(--spacing) * 1);
-}
-
 .hobbies ul {
   list-style: none;
   display: flex;

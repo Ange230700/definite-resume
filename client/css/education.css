@@ -7,11 +7,12 @@
 }
 
 .formation-list-item {
+  padding-left: calc(var(--spacing) * 5);
   display: flex;
   justify-content: space-between;
   margin-bottom: calc(var(--spacing) * 1);
 }
 
-.school {
+/* .school {
   font-weight: 600;
-}
+} */

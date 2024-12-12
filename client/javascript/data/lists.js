@@ -2,12 +2,12 @@
 
 const socialsList = [
   {
-    link: "https://www.linkedin.com/in/janedoe/",
+    link: "https://www.linkedin.com/in/ange-kouakou/",
     text: "LinkedIn",
     id: "linkedin-link",
   },
   {
-    link: "https://github.com/janedoe",
+    link: "https://github.com/Ange230700",
     text: "GitHub",
     id: "github-link",
   },
@@ -18,51 +18,83 @@ const socialsList = [
   },
 ];
 
-const hardSkills = ["Python", "Django", "REST APIs", "SQL", "Docker"];
+const hardSkills = [
+  "HTML",
+  "CSS / SASS",
+  "Javascript",
+  "React",
+  "Express",
+  "Node.js",
+  "MySQL",
+];
 
-const softSkills = ["Critical Thinking", "Time Management", "Team Leadership"];
+const softSkills = [
+  "Travail en équipe",
+  "Autonomie",
+  "Adaptabilité",
+  "Gestion du temps",
+];
 
 const experiencesList = [
   {
-    project_description: "Backend Developer at Tech Solutions",
+    project_description:
+      "Réalisation d'un service de contenus vidéo: <u><em><a href='#'>WildTube</a></em></u>",
     tasks: [
-      "Developed RESTful APIs using Django REST Framework.",
-      "Implemented authentication and authorization systems.",
-      "Optimized database queries for performance.",
+      "<strong>Conception</strong> et implémentation de la base de données",
+      "Création de l'<strong>API</strong>",
+      "Intégration l'<strong>authentification</strong> des utilisateurs",
     ],
   },
   {
-    project_description: "Software Engineer Intern at CodeWorks",
+    project_description:
+      "Réalisation d'une application radio en ligne: <u><em><a href='#'>RadioWorld</a></em></u>",
     tasks: [
-      "Assisted in developing microservices architecture.",
-      "Wrote unit tests and documentation.",
-      "Collaborated with frontend developers to integrate APIs.",
+      "Récupération de la liste des stations radios via une <strong>API existante</strong>",
+      "Implémentation du filtrage par nom de station, pays et genre de radio",
+      "Implémentation du contrôle de lecture des radios",
     ],
   },
-  // Add more experiences if needed
 ];
 
 const educationList = [
   {
-    formation_title: "Master of Science in Computer Science",
-    school: "Tech University",
-    formation_span: "2018 - 2020",
+    formation_title: "Formation Développeur•se Web et Mobile",
+    school: "ADA Tech School",
+    formation_span: "Depuis 10/2024",
   },
   {
-    formation_title: "Bachelor of Science in Information Technology",
-    school: "State College",
-    formation_span: "2014 - 2018",
+    formation_title: "Bootcamp Développement Web",
+    school: "Wild Code School",
+    formation_span: "10/2023 - 02/2024",
   },
-  // Add more education entries if needed
+  {
+    formation_title: "Bachelor informatique",
+    school: "Ynov Campus de Nantes",
+    formation_span: "09/2022 - 05/2023",
+  },
+  {
+    formation_title: "Prépa informatique intégrée",
+    school: "CESI Toulouse",
+    formation_span: "09/2021 - 05/2022",
+  },
+  {
+    formation_title: "Formation ingénieur électronique embarqué",
+    school: "CESI Toulouse",
+    formation_span: "09/2020 - 05/2021",
+  },
+  {
+    formation_title: "Prépa technologique intégrée",
+    school: "CESI Saint-Nazaire",
+    formation_span: "09/2019 - 05/2020",
+  },
+  {
+    formation_title: "Cycle Préparatoire Scientifique",
+    school: "LFBP Abidjan, Côte d'Ivoire",
+    formation_span: "09/2017 - 07/2019",
+  },
 ];
 
-const hobbiesList = [
-  "Photography",
-  "Traveling",
-  "Reading Sci-Fi novels",
-  "Volunteering at local shelters",
-  // Add more hobbies if needed
-];
+const hobbiesList = ["Apprentissage autodidacte du piano"];
 
 export {
   socialsList,
