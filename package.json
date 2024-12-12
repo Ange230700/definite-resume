@@ -8,9 +8,11 @@
     "clean": "rm -rf ./node_modules/ ./package-lock.json && npm run clean --workspaces",
     "reboot": "npm run clean && npm install",
     "prettier:lint": "prettier --write . && eslint --fix . && npm run prettier:lint --workspaces",
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "prettier-watch:root": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "prettier-watch:server": "cd server && npm run prettier-watch:server",
     "prepare": "husky",
-    "dev:client": "npm run dev --workspace=client"
+    "dev:client": "npm run dev --workspace=client",
+    "dev:server": "npm run dev --workspace=server"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
