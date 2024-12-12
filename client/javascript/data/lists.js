@@ -35,23 +35,37 @@ const softSkills = [
   "Gestion du temps",
 ];
 
+const projectsLinks = {
+  daf: "https://ongoing-fbi-investigations.vercel.app/",
+  quiz: "https://quizz-two-delta.vercel.app/",
+  morse_translator: "https://04-can-you-speak-morse.vercel.app/",
+};
+
 const experiencesList = [
   {
     project_description:
-      "Réalisation d'un service de contenus vidéo: <u><em><a href='#'>WildTube</a></em></u>",
+      `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
     tasks: [
-      "<strong>Conception</strong> et implémentation de la base de données",
-      "Création de l'<strong>API</strong>",
-      "Intégration l'<strong>authentification</strong> des utilisateurs",
+      "Récupération des données via l'<strong>API</strong> du FBI",
+      "Implémentation du filtrage par barre de recherche",
+      "Implémentation d'un <strong>système de pagination</strong>",
     ],
   },
   {
     project_description:
-      "Réalisation d'une application radio en ligne: <u><em><a href='#'>RadioWorld</a></em></u>",
+      `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
     tasks: [
-      "Récupération de la liste des stations radios via une <strong>API existante</strong>",
-      "Implémentation du filtrage par nom de station, pays et genre de radio",
-      "Implémentation du contrôle de lecture des radios",
+      "Création des questions et réponses",
+      "Implémentation du <strong>timer</strong>",
+      "Calcul du score final",
+    ],
+  },
+  {
+    project_description:
+      `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
+    tasks: [
+      "Création de l'interface utilisateur",
+      "Implémentation de la traduction",
     ],
   },
 ];
