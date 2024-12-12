@@ -37,12 +37,11 @@ const softSkills = [
 
 const experiencesList = [
   {
-    project_description: "Réalisation d'un service de contenus vidéo: <u><em><a href='#'>WildTube</a></em></u>",
+    project_description:
+      "Réalisation d'un service de contenus vidéo: <u><em><a href='#'>WildTube</a></em></u>",
     tasks: [
       "<strong>Conception</strong> et implémentation de la base de données",
-      "Création de l'<strong>API</strong> pour la gestion des vidéos",
-      "Affichage des contenus vidéo regroupés par catégories sur la page d'accueil",
-      "Implémentation du filtrage via une barre de recherche",
+      "Création de l'<strong>API</strong>",
       "Intégration l'<strong>authentification</strong> des utilisateurs",
     ],
   },
@@ -50,9 +49,9 @@ const experiencesList = [
     project_description:
       "Réalisation d'une application radio en ligne: <u><em><a href='#'>RadioWorld</a></em></u>",
     tasks: [
-      "Récupérer la liste des stations radios via une API existante",
-      "Implémenter le filtrage par nom de station, pays et genre de radio",
-      "Implémenter le contrôle de lecture des radios",
+      "Récupération de la liste des stations radios via une <strong>API existante</strong>",
+      "Implémentation du filtrage par nom de station, pays et genre de radio",
+      "Implémentation du contrôle de lecture des radios",
     ],
   },
 ];

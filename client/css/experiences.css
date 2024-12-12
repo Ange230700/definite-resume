@@ -1,6 +1,6 @@
 /* client\css\experiences.css */
 
 .experiences-list-item ul li {
-    list-style:inside;
-    padding-left: calc(var(--spacing) * 10);
+  list-style: inside;
+  padding-left: calc(var(--spacing) * 10);
 }

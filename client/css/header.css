@@ -15,4 +15,5 @@ header h1 {
 header h3 {
   text-align: center;
   text-decoration: none;
+  margin-bottom: calc(var(--spacing) * 0);
 }

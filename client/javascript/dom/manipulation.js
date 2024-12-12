@@ -32,13 +32,12 @@ function setSocialsLinks() {
     li.classList.add("socials");
     li.id = social.id;
 
-    
     const a = document.createElement("a");
     a.classList.add("socials-link-text");
     a.href = social.link;
-    
+
     a.appendChild(document.createTextNode(` ${social.text}`));
-    
+
     const em = document.createElement("em");
     em.appendChild(a);
 

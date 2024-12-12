@@ -1,14 +1,5 @@
 // javascript\components\creation.js
 
-function createHeader() {
-  return `
-    <header>
-      <h1></h1>
-      <h3></h3>
-    </header>
-  `;
-}
-
 function createContactSection() {
   return `
     <section class="contact">
@@ -16,6 +7,16 @@ function createContactSection() {
         <ul class="socials-wrapper"></ul>
       </div>
     </section>
+  `;
+}
+
+function createHeader() {
+  return `
+    <header>
+      <h1></h1>
+      <h3></h3>
+      ${createContactSection()}
+    </header>
   `;
 }
 
