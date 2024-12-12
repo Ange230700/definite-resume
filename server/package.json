@@ -3,16 +3,24 @@
   "scripts": {
     "clean": "rm -rf ./node_modules/ ./package-lock.json",
     "reboot": "npm run clean && npm install",
-    "prettier:lint": "prettier --write . && eslint --fix ."
+    "prettier:lint": "prettier --write . && eslint --fix .",
+    "prettier-watch:server": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "dev": "nodemon index.cjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.12.0",
+    "nodemon": "^3.1.7",
+    "onchange": "^7.1.0",
     "prettier": "3.3.3"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0",
     "puppeteer": "^23.10.2"
   }
 }

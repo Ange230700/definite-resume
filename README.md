@@ -2,13 +2,27 @@
 
 # Resume
 
-## Punchy introduction
+## Setup and use
 
-To write a punchy introduction, you need to grab the reader's attention. You can do this by using a quote, a question, or a bold statement. You can also use a statistic or a fact to make your introduction more interesting.
+### Git configuration
 
-Mettre mon nom et prénom dans l'en-tête du CV.
+To avoid issues with line endings:
 
-Alternance — contrat de professionnalisation ou d'apprentissage en développement web et mobile.
-Rythme de l'alternance.
+```bash
+git config --global core.eol lf
+git config --global core.autocrlf false
+```
 
-Rester synthétique et précis.
+### Setup
+
+1. Clone the repository
+2. Install the dependencies
+3. Run the application
+
+### Available scripts
+
+- `npm run dev:client`: Start the client in development mode
+- `npm run dev:server`: Start the server in development mode
+- `npm run dev`: Start both client and server simultaneously
+- `npm run clean`: Remove the directories and files generated
+- `npm run prettier:lint`: format the code correctly and check for quality code errors
