@@ -16,6 +16,21 @@ const socialsList = [
     text: "Portfolio",
     id: "portfolio-link",
   },
+  {
+    link: "mailto:kouakouangeericstephane@gmail.com",
+    text: "Mail",
+    id: "mail-link",
+  },
+  {
+    link: "tel:+33759802343",
+    text: "Téléphone",
+    id: "phone-link",
+  },
+  {
+    link: "/",
+    text: "44000, Nantes",
+    id: "location",
+  },
 ];
 
 const hardSkills = [
@@ -43,8 +58,7 @@ const projectsLinks = {
 
 const experiencesList = [
   {
-    project_description:
-      `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
     tasks: [
       "Récupération des données via l'<strong>API</strong> du FBI",
       "Implémentation du filtrage par barre de recherche",
@@ -52,8 +66,7 @@ const experiencesList = [
     ],
   },
   {
-    project_description:
-      `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
+    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
     tasks: [
       "Création des questions et réponses",
       "Implémentation du <strong>timer</strong>",
@@ -61,8 +74,7 @@ const experiencesList = [
     ],
   },
   {
-    project_description:
-      `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
+    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
     tasks: [
       "Création de l'interface utilisateur",
       "Implémentation de la traduction",

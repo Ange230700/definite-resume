@@ -23,6 +23,7 @@ function addNewContentToHtmlElement(htmlElement, content) {
 function setResumeHeader() {
   setHtmlElementContent(getHtmlElement("header h1"), resumeData.header.name);
   setHtmlElementContent(getHtmlElement("header h3"), resumeData.header.title);
+  setHtmlElementContent(getHtmlElement("header p"), resumeData.header.details);
 }
 
 /* ———— CONTACT ———— */
