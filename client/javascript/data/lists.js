@@ -54,28 +54,36 @@ const projectsLinks = {
   daf: "https://ongoing-fbi-investigations.vercel.app/",
   quiz: "https://quizz-two-delta.vercel.app/",
   morse_translator: "https://04-can-you-speak-morse.vercel.app/",
+  mastermind: "https://08-mastermind.vercel.app/",
 };
 
 const experiencesList = [
   {
     project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
     tasks: [
-      "Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
       "Récupération des données via l'<strong>API</strong> du FBI",
     ],
   },
   {
     project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
     tasks: [
-      "Équipe de 4 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
       "Implémentation d'une application dépendant d'un <strong>timer</strong>",
     ],
   },
   {
     project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
     tasks: [
-      "Travail personnel | 1 semaine | HTML, CSS, JavaScript",
+      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
       "Manipulation de structures de données telles que des dictionnaires",
+    ],
+  },
+  {
+    project_description: `Réalisation du jeu <u><em><a href="${projectsLinks.mastermind}">Mastermind</a></em></u>`,
+    tasks: [
+      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+      "Entraînement sur la logique et l'ordre d'exécution",
     ],
   },
 ];
@@ -106,16 +114,16 @@ const educationList = [
     school: "CESI Toulouse",
     formation_span: "09/2020 - 05/2021",
   },
-  // {
-  //   formation_title: "Prépa technologique intégrée",
-  //   school: "CESI Saint-Nazaire",
-  //   formation_span: "09/2019 - 05/2020",
-  // },
-  // {
-  //   formation_title: "Cycle Préparatoire Scientifique",
-  //   school: "LFBP Abidjan, Côte d'Ivoire",
-  //   formation_span: "09/2017 - 07/2019",
-  // },
+  {
+    formation_title: "Prépa technologique intégrée",
+    school: "CESI Saint-Nazaire",
+    formation_span: "09/2019 - 05/2020",
+  },
+  {
+    formation_title: "Cycle Préparatoire Scientifique",
+    school: "LFBP Abidjan, Côte d'Ivoire",
+    formation_span: "09/2017 - 07/2019",
+  },
 ];
 
 const hobbiesList = ["Apprentissage autodidacte du piano"];
