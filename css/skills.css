@@ -1,0 +1,25 @@
+/* css\skills.css */
+
+#structure {
+  display: flex;
+  gap: calc(var(--spacing) * 2);
+}
+
+#hard,
+#soft {
+  width: calc((100% - calc(var(--spacing) * 2)) / 2);
+}
+
+.competences-techniques-list,
+.soft-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: square inside;
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+.competences-techniques-list-item,
+.soft-skills-list-item {
+  width: calc((100% - calc(var(--spacing) * 0.125)) / 3);
+  margin-bottom: calc(var(--spacing) * 2);
+}

@@ -1,4 +1,0 @@
-# client\.prettierignore
-
-**/node_modules/**
-**/.vscode/**
