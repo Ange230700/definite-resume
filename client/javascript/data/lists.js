@@ -60,24 +60,22 @@ const experiencesList = [
   {
     project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
     tasks: [
+      "Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
       "Récupération des données via l'<strong>API</strong> du FBI",
-      "Implémentation du filtrage par barre de recherche",
-      "Implémentation d'un <strong>système de pagination</strong>",
     ],
   },
   {
     project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
     tasks: [
-      "Création des questions et réponses",
-      "Implémentation du <strong>timer</strong>",
-      "Calcul du score final",
+      "Équipe de 4 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "Implémentation d'une application dépendant d'un <strong>timer</strong>",
     ],
   },
   {
     project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
     tasks: [
-      "Création de l'interface utilisateur",
-      "Implémentation de la traduction",
+      "Travail personnel | 1 semaine | HTML, CSS, JavaScript",
+      "Manipulation de structures de données telles que des dictionnaires",
     ],
   },
 ];
@@ -108,16 +106,16 @@ const educationList = [
     school: "CESI Toulouse",
     formation_span: "09/2020 - 05/2021",
   },
-  {
-    formation_title: "Prépa technologique intégrée",
-    school: "CESI Saint-Nazaire",
-    formation_span: "09/2019 - 05/2020",
-  },
-  {
-    formation_title: "Cycle Préparatoire Scientifique",
-    school: "LFBP Abidjan, Côte d'Ivoire",
-    formation_span: "09/2017 - 07/2019",
-  },
+  // {
+  //   formation_title: "Prépa technologique intégrée",
+  //   school: "CESI Saint-Nazaire",
+  //   formation_span: "09/2019 - 05/2020",
+  // },
+  // {
+  //   formation_title: "Cycle Préparatoire Scientifique",
+  //   school: "LFBP Abidjan, Côte d'Ivoire",
+  //   formation_span: "09/2017 - 07/2019",
+  // },
 ];
 
 const hobbiesList = ["Apprentissage autodidacte du piano"];

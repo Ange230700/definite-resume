@@ -68,7 +68,7 @@ function setSkillsSection() {
   );
 
   setHtmlElementContent(
-    getHtmlElement(".competences").querySelector("h4:nth-of-type(1)"),
+    getHtmlElement(".competences").querySelector("#structure #hard h4"),
     resumeData.skills.hard_skills_title,
   );
   resumeData.skills.hard_skills.forEach((skill) => {
@@ -81,7 +81,7 @@ function setSkillsSection() {
   });
 
   setHtmlElementContent(
-    getHtmlElement(".competences").querySelector("h4:nth-of-type(2)"),
+    getHtmlElement(".competences").querySelector("#structure #soft h4"),
     resumeData.skills.softSkillsTitle,
   );
   resumeData.skills.softSkills.forEach((skill) => {

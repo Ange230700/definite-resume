@@ -12,8 +12,9 @@ import {
 const resumeData = {
   header: {
     name: "Ange KOUAKOU",
-    title: "Développeur Fullstack Javascript",
-    details: "Recherche un contrat d'apprentissage : 4 jours en entreprise, 1 jour en formation.",
+    title: "Développeur Fullstack",
+    details:
+      "Recherche un contrat d'apprentissage : 4 jours entreprise - 1 jour de formation.",
   },
 
   contact: {
@@ -40,7 +41,7 @@ const resumeData = {
   },
 
   education: {
-    section_title: "Education",
+    section_title: "Formations",
     list: educationList,
   },
 
