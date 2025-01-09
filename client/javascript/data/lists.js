@@ -12,7 +12,7 @@ const socialsList = [
     id: "github-link",
   },
   {
-    link: "http://vps-80a85dd9.vps.ovh.net:5000/",
+    link: "https://the-real-portfolio-client.vercel.app/",
     text: "Portfolio",
     id: "portfolio-link",
   },
