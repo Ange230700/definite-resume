@@ -13,6 +13,7 @@ function createHeader() {
     <header>
       <h1></h1>
       <h3></h3>
+      <p></p>
       ${createContactSection()}
     </header>
   `;
@@ -31,10 +32,16 @@ function createSkillsSection() {
   return `
     <section class="competences">
       <h3></h3>
-      <h4></h4>
-      <ul class="competences-techniques-list"></ul>
-      <h4></h4>
-      <ul class="soft-skills-list"></ul>
+      <div id="structure">
+        <div id="hard">
+          <h4></h4>
+          <ul class="competences-techniques-list"></ul>
+        </div>
+        <div id="soft">
+          <h4></h4>
+          <ul class="soft-skills-list"></ul>
+        </div>
+      </div>
     </section>
   `;
 }

@@ -46,6 +46,7 @@ ul {
 h3 {
   text-decoration: underline;
   margin-bottom: calc(var(--spacing) * 3);
+  color: var(--title-color);
 }
 
 .resume-wrapper,

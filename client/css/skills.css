@@ -1,31 +1,25 @@
 /* client\css\skills.css */
 
+#structure {
+  display: flex;
+  gap: calc(var(--spacing) * 2);
+}
+
+#hard,
+#soft {
+  width: calc((100% - calc(var(--spacing) * 2)) / 2);
+}
+
 .competences-techniques-list,
 .soft-skills-list {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
+  list-style: square inside;
   margin-bottom: calc(var(--spacing) * 2);
 }
 
 .competences-techniques-list-item,
 .soft-skills-list-item {
-  width: calc((100% - calc(var(--spacing) * 0.5)) / 3);
+  width: calc((100% - calc(var(--spacing) * .125)) / 3);
   margin-bottom: calc(var(--spacing) * 2);
-  padding-left: calc(var(--spacing) * 10);
-}
-
-.competences-techniques-list-item:nth-child(3n + 1),
-.soft-skills-list-item:nth-child(3n + 1) {
-  border-right: 5px solid black;
-}
-
-.competences-techniques-list-item:nth-child(3n + 2),
-.soft-skills-list-item:nth-child(3n + 2) {
-  border-right: 5px solid black;
-}
-
-.competences-techniques-list-item:last-child,
-.soft-skills-list-item:last-child {
-  border-right: none;
 }
