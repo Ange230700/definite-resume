@@ -12,9 +12,24 @@ const socialsList = [
     id: "github-link",
   },
   {
-    link: "http://vps-80a85dd9.vps.ovh.net:5000/",
+    link: "https://the-real-portfolio-client.vercel.app/",
     text: "Portfolio",
     id: "portfolio-link",
+  },
+  {
+    link: "mailto:kouakouangeericstephane@gmail.com",
+    text: "Mail",
+    id: "mail-link",
+  },
+  {
+    link: "tel:+33759802343",
+    text: "Téléphone",
+    id: "phone-link",
+  },
+  {
+    link: "/",
+    text: "44000, Nantes",
+    id: "location",
   },
 ];
 
@@ -39,33 +54,36 @@ const projectsLinks = {
   daf: "https://ongoing-fbi-investigations.vercel.app/",
   quiz: "https://quizz-two-delta.vercel.app/",
   morse_translator: "https://04-can-you-speak-morse.vercel.app/",
+  mastermind: "https://08-mastermind.vercel.app/",
 };
 
 const experiencesList = [
   {
-    project_description:
-      `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
     tasks: [
+      "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
       "Récupération des données via l'<strong>API</strong> du FBI",
-      "Implémentation du filtrage par barre de recherche",
-      "Implémentation d'un <strong>système de pagination</strong>",
     ],
   },
   {
-    project_description:
-      `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
+    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
     tasks: [
-      "Création des questions et réponses",
-      "Implémentation du <strong>timer</strong>",
-      "Calcul du score final",
+      "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
+      "Implémentation d'une application dépendant d'un <strong>timer</strong>",
     ],
   },
   {
-    project_description:
-      `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
+    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
     tasks: [
-      "Création de l'interface utilisateur",
-      "Implémentation de la traduction",
+      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+      "Manipulation de structures de données telles que des dictionnaires",
+    ],
+  },
+  {
+    project_description: `Réalisation du jeu <u><em><a href="${projectsLinks.mastermind}">Mastermind</a></em></u>`,
+    tasks: [
+      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+      "Entraînement sur la logique et l'ordre d'exécution",
     ],
   },
 ];

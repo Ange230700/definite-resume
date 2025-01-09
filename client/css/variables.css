@@ -5,6 +5,10 @@
   --page-width: 2480px;
   --page-height: 3508px;
 
+  /* Colors */
+  --title-color: hsla(204, 42%, 27%, 1);
+  --title-color-2: hsla(204, 42%, 27%, 0.8);
+
   /* Sizes */
   --standard-unit-size: 10px;
   font-size: calc(var(--standard-unit-size) * 5);
