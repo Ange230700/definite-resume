@@ -1,4 +1,4 @@
-// javascript\data\resumeData.js
+// source\javascript\data\resumeData.js
 
 import {
   socialsList,

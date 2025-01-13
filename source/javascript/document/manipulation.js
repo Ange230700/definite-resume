@@ -1,4 +1,4 @@
-// javascript\dom\manipulation.js
+// source\javascript\document\manipulation.js
 
 import resumeData from "../data/resumeData.js";
 

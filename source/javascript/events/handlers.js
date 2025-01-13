@@ -1,13 +1,13 @@
-// javascript\events\handlers.js
+// source\javascript\events\handlers.js
 
 import {
-  createHeader,
-  createSkillsSection,
-  createExperiencesSection,
-  createEducationSection,
-  createHobbiesSection,
-  createIntroductionSection,
-} from "../components/creation.js";
+  generateHeader,
+  generateSkillsSection,
+  generateExperiencesSection,
+  generateEducationSection,
+  generateHobbiesSection,
+  generateIntroductionSection,
+} from "../components/functional.js";
 import {
   addNewContentToHtmlElement,
   setEducationSection,
@@ -17,19 +17,19 @@ import {
   setResumeHeader,
   setSkillsSection,
   setSocialsLinks,
-} from "../dom/manipulation.js";
+} from "../document/manipulation.js";
 import { resumeWrapper } from "../state/management.js";
 
 function handleResumeContentLoading() {
   addNewContentToHtmlElement(
     resumeWrapper,
     `
-      ${createHeader()}
-      ${createIntroductionSection()}
-      ${createSkillsSection()}
-      ${createExperiencesSection()}
-      ${createEducationSection()}
-      ${createHobbiesSection()}
+      ${generateHeader()}
+      ${generateIntroductionSection()}
+      ${generateSkillsSection()}
+      ${generateExperiencesSection()}
+      ${generateEducationSection()}
+      ${generateHobbiesSection()}
     `,
   );
 
@@ -42,4 +42,4 @@ function handleResumeContentLoading() {
   setHobbiesSection();
 }
 
-export default handleResumeContentLoading;
+export { handleResumeContentLoading };

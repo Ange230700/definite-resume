@@ -1,6 +1,6 @@
-// javascript\components\creation.js
+// source\javascript\components\functional.js
 
-function createContactSection() {
+function generateContactSection() {
   return `
       <div class="contact-wrapper">
         <ul class="socials-wrapper"></ul>
@@ -8,18 +8,18 @@ function createContactSection() {
   `;
 }
 
-function createHeader() {
+function generateHeader() {
   return `
     <header>
       <h1></h1>
       <h3></h3>
       <p></p>
-      ${createContactSection()}
+      ${generateContactSection()}
     </header>
   `;
 }
 
-function createIntroductionSection() {
+function generateIntroductionSection() {
   return `
     <section class="introduction">
       <h3></h3>
@@ -28,7 +28,7 @@ function createIntroductionSection() {
   `;
 }
 
-function createSkillsSection() {
+function generateSkillsSection() {
   return `
     <section class="competences">
       <h3></h3>
@@ -46,7 +46,7 @@ function createSkillsSection() {
   `;
 }
 
-function createExperiencesSection() {
+function generateExperiencesSection() {
   return `
     <section class="experiences">
       <h3></h3>
@@ -55,7 +55,7 @@ function createExperiencesSection() {
   `;
 }
 
-function createEducationSection() {
+function generateEducationSection() {
   return `
     <section class="formation">
       <h3></h3>
@@ -64,7 +64,7 @@ function createEducationSection() {
   `;
 }
 
-function createHobbiesSection() {
+function generateHobbiesSection() {
   return `
     <section class="hobbies">
       <h3></h3>
@@ -74,11 +74,11 @@ function createHobbiesSection() {
 }
 
 export {
-  createHeader,
-  createContactSection,
-  createIntroductionSection,
-  createSkillsSection,
-  createExperiencesSection,
-  createEducationSection,
-  createHobbiesSection,
+  generateHeader,
+  generateContactSection,
+  generateIntroductionSection,
+  generateSkillsSection,
+  generateExperiencesSection,
+  generateEducationSection,
+  generateHobbiesSection,
 };

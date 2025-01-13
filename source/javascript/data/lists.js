@@ -1,4 +1,4 @@
-// javascript\data\lists.js
+// source\javascript\data\lists.js
 
 const socialsList = [
   {
