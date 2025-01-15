@@ -1,15 +1,17 @@
 {
-  "name": "client",
-  "type": "module",
+  "name": "definite-resume",
+  "workspaces": [
+    "server",
+    "client"
+  ],
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview",
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "dev:client": "npm run dev --workspace=client",
+    "build": "npm run build --workspaces --if-present",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}} && npm run prettier-watch --workspaces --if-present",
     "prepare": "husky",
-    "reboot": "rm -rf ./node_modules/ ./dist/ ./package-lock.json && npm install",
+    "reboot": "rm -rf ./node_modules/ ./package-lock.json && npm install && npm run reboot --workspaces --if-present",
     "lint": "eslint . --cache --fix",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint && npm run lint --workspaces --if-present"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
@@ -22,8 +24,7 @@
     "lint-staged": "^15.2.10",
     "onchange": "^7.1.0",
     "prettier": "3.3.3",
-    "validate-branch-name": "^1.3.1",
-    "vite": "^5.4.10"
+    "validate-branch-name": "^1.3.1"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown",

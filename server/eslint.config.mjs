@@ -1,4 +1,4 @@
-// eslint.config.js
+// eslint.config.mjs
 
 import globals from "globals";
 import pluginJs from "@eslint/js";
@@ -10,6 +10,6 @@ export default [
   pluginJs.configs.recommended,
   eslintConfigPrettier,
   {
-    ignores: ["**/node_modules/**", "**/dist/**", "**/.vscode/**"],
+    ignores: ["**/node_modules/**"],
   },
 ];

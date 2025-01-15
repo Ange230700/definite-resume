@@ -1,4 +1,4 @@
-// generate-pdf.cjs
+// server\generate-pdf.cjs
 
 const puppeteer = require("puppeteer");
 const path = require("path");
@@ -8,7 +8,7 @@ const path = require("path");
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  await page.goto("https://definite-resume.vercel.app/", {
+  await page.goto("https://ange230700.github.io", {
     waitUntil: "networkidle0",
   }); // Adjust the URL and port if necessary
   await page.pdf({
