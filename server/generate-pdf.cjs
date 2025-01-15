@@ -8,10 +8,11 @@ const path = require("path");
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  await page.goto("https://ange230700.github.io", {
+  await page.goto("https://definite-resume.vercel.app/", {
     waitUntil: "networkidle0",
   }); // Adjust the URL and port if necessary
   await page.pdf({
+    // eslint-disable-next-line no-undef
     path: path.join(__dirname, "resume.pdf"),
     format: "A4",
     printBackground: true,
