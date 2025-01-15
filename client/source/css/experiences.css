@@ -1,0 +1,12 @@
+/* source\css\experiences.css */
+
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 10);
+}
+
+.experiences-list-item ul li {
+  list-style: inside;
+  padding-left: calc(var(--spacing) * 10);
+}
