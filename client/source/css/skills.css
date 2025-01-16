@@ -5,9 +5,13 @@
   gap: calc(var(--spacing) * 2);
 }
 
-#hard,
+#hard {
+  border-right: 4px solid hsl(0, 0%, 0%);
+  padding-right: calc(var(--spacing) * 2);
+}
+
 #soft {
-  width: calc((100% - calc(var(--spacing) * 2)) / 2);
+  padding-left: calc(var(--spacing) * 2);
 }
 
 .competences-techniques-list,
@@ -18,8 +22,14 @@
   margin-bottom: calc(var(--spacing) * 2);
 }
 
-.competences-techniques-list-item,
-.soft-skills-list-item {
+/* Three columns for technical skills */
+.competences-techniques-list-item {
   width: calc((100% - calc(var(--spacing) * 0.125)) / 3);
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+/* Two columns for soft skills */
+.soft-skills-list-item {
+  width: calc((100% - calc(var(--spacing) * 0.125)) / 2);
   margin-bottom: calc(var(--spacing) * 2);
 }
