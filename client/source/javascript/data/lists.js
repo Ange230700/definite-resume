@@ -18,12 +18,12 @@ const socialsList = [
   },
   {
     link: "mailto:kouakouangeericstephane@gmail.com",
-    text: "Mail",
+    text: "kouakouangeericstephane@gmail.com",
     id: "mail-link",
   },
   {
     link: "tel:+33759802343",
-    text: "Téléphone",
+    text: "+33 7 59 80 23 43",
     id: "phone-link",
   },
   {
@@ -34,11 +34,11 @@ const socialsList = [
 ];
 
 const hardSkills = [
-  "HTML",
-  "CSS / SASS",
   "Javascript",
   "React",
+  "CSS / SASS",
   "Express",
+  "HTML",
   "Node.js",
   "MySQL",
 ];
