@@ -11,7 +11,8 @@
     "prepare": "husky",
     "reboot": "rm -rf ./node_modules/ ./package-lock.json && npm install && npm run reboot --workspaces --if-present",
     "lint": "eslint . --cache --fix",
-    "pretest": "npm run lint && npm run lint --workspaces --if-present"
+    "pretest": "npm run lint && npm run lint --workspaces --if-present",
+    "convert-to-pdf": "npm run convert-to-pdf --workspace=server"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
