@@ -14,7 +14,7 @@ const resumeData = {
     name: "Ange KOUAKOU",
     title: "Développeur Fullstack",
     details:
-      "Recherche un contrat d'apprentissage : 4 jours entreprise - 1 jour de formation à partir de Juin 2025.",
+      "Recherche un contrat d'apprentissage : 4 jours entreprise - 1 jour en formation à partir de Juin 2025.",
   },
 
   contact: {
