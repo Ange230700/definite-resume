@@ -21,6 +21,8 @@
   justify-content: space-around;
 }
 
+#mail-link a,
+#phone-link a,
 #location a {
   text-decoration: none;
   font-style: normal;
