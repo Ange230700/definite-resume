@@ -28,13 +28,13 @@ const socialsList = [
   },
   {
     link: "/",
-    text: "44000, Nantes",
+    text: "Nantes",
     id: "location",
   },
 ];
 
 const hardSkills = [
-  "Javascript",
+  "JavaScript",
   "React",
   "CSS / SASS",
   "Express",
