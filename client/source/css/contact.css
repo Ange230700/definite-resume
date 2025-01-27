@@ -28,3 +28,8 @@
   font-style: normal;
   cursor: initial;
 }
+
+#phone-link a,
+#location a {
+  pointer-events: none;
+}
