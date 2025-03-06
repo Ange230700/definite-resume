@@ -41,6 +41,7 @@ const hardSkills = [
   "HTML",
   "Node.js",
   "MySQL",
+  "Git",
 ];
 
 const softSkills = [
@@ -48,6 +49,7 @@ const softSkills = [
   "Autonomie",
   "Adaptabilité",
   "Rigueur",
+  "Agile/SCRUM",
   // "Gestion du temps",
 ];
 
