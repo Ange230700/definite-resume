@@ -47,7 +47,8 @@ const softSkills = [
   "Travail en équipe",
   "Autonomie",
   "Adaptabilité",
-  "Gestion du temps",
+  "Rigueur",
+  // "Gestion du temps",
 ];
 
 const projectsLinks = {
