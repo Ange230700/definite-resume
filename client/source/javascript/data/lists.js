@@ -42,6 +42,8 @@ const hardSkills = [
   "Node.js",
   "MySQL",
   "Git",
+  "TailwindCSS",
+  // "Bootstrap",
 ];
 
 const softSkills = [
