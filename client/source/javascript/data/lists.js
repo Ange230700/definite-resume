@@ -60,11 +60,20 @@ const projectsLinks = {
   quiz: "https://quizz-two-delta.vercel.app/",
   morse_translator: "https://04-can-you-speak-morse.vercel.app/",
   mastermind: "https://08-mastermind.vercel.app/",
+  back_office: "http://vps-6604485f.vps.ovh.net/home",
 };
 
 const experiencesList = [
   {
-    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">DAF</a></em></u>`,
+    project_description: `Développement d'un back-office pour une association de collectes de déchets: <u><em><a href="${projectsLinks.back_office}">voir le site</a></em></u>`,
+    tasks: [
+      "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> PHP, Twig, Symfony",
+      "Authentification et gestion des droits d'accès",
+      "Opérations CRUD",
+    ],
+  },
+  {
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">voir le site</a></em></u>`,
     tasks: [
       "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
       "Récupération des données via l'<strong>API</strong> du FBI",
