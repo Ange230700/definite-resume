@@ -36,6 +36,7 @@ function setSocialsLinks() {
     const a = document.createElement("a");
     a.classList.add("socials-link-text");
     a.href = social.link;
+    a.target = "_blank";
 
     a.appendChild(document.createTextNode(` ${social.text}`));
 

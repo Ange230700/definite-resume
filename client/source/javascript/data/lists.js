@@ -35,14 +35,15 @@ const socialsList = [
 
 const hardSkills = [
   "JavaScript",
-  "PHP",
   "React",
   "Express",
+  "PHP",
   "Symphony",
-  "Node.js",
+  "Twig",
   "MySQL",
   "Git / Github",
   "TailwindCSS",
+  // "Node.js",
   // "HTML",
   // "CSS / SASS",
   // "Bootstrap",
@@ -81,25 +82,25 @@ const experiencesList = [
       "Récupération des données via l'<strong>API</strong> du FBI",
     ],
   },
+  {
+    project_description: `Réalisation du jeu Mastermind: <u><em><a href="${projectsLinks.mastermind}" target="_blank">voir le site</a></em></u>`,
+    tasks: [
+      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+      "Entraînement sur la logique et l'ordre d'exécution",
+    ],
+  },
+  {
+    project_description: `Réalisation d'un quiz: <u><em><a href="${projectsLinks.quiz}" target="_blank">voir le site</a></em></u>`,
+    tasks: [
+      "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
+      "Implémentation d'une application dépendant d'un <strong>timer</strong>",
+    ],
+  },
   // {
-  //   project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
-  //   tasks: [
-  //     "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
-  //     "Implémentation d'une application dépendant d'un <strong>timer</strong>",
-  //   ],
-  // },
-  // {
-  //   project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
+  //   project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}" target="_blank">traducteur Morse</a></em></u>`,
   //   tasks: [
   //     "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
   //     "Manipulation de structures de données telles que des dictionnaires",
-  //   ],
-  // },
-  // {
-  //   project_description: `Réalisation du jeu <u><em><a href="${projectsLinks.mastermind}">Mastermind</a></em></u>`,
-  //   tasks: [
-  //     "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
-  //     "Entraînement sur la logique et l'ordre d'exécution",
   //   ],
   // },
 ];

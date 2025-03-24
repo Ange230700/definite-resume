@@ -3,7 +3,7 @@
 .experiences-list {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--spacing) * 10);
+  gap: calc(var(--spacing) * 5);
 }
 
 .experiences-list-item ul li {
