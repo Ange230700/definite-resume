@@ -35,14 +35,16 @@ const socialsList = [
 
 const hardSkills = [
   "JavaScript",
+  "PHP",
   "React",
-  "CSS / SASS",
   "Express",
-  "HTML",
+  "Symphony",
   "Node.js",
   "MySQL",
-  "Git",
+  "Git / Github",
   "TailwindCSS",
+  // "HTML",
+  // "CSS / SASS",
   // "Bootstrap",
 ];
 
@@ -65,7 +67,7 @@ const projectsLinks = {
 
 const experiencesList = [
   {
-    project_description: `Développement d'un back-office pour une association de collectes de déchets: <u><em><a href="${projectsLinks.back_office}">voir le site</a></em></u>`,
+    project_description: `Développement d'un back-office pour une association de collectes de déchets: <u><em><a href="${projectsLinks.back_office}" target="_blank">voir le site</a></em></u>`,
     tasks: [
       "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> PHP, Twig, Symfony",
       "Authentification et gestion des droits d'accès",
@@ -73,33 +75,33 @@ const experiencesList = [
     ],
   },
   {
-    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}">voir le site</a></em></u>`,
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}" target="_blank">voir le site</a></em></u>`,
     tasks: [
       "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
       "Récupération des données via l'<strong>API</strong> du FBI",
     ],
   },
-  {
-    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
-    tasks: [
-      "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
-      "Implémentation d'une application dépendant d'un <strong>timer</strong>",
-    ],
-  },
-  {
-    project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
-    tasks: [
-      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
-      "Manipulation de structures de données telles que des dictionnaires",
-    ],
-  },
-  {
-    project_description: `Réalisation du jeu <u><em><a href="${projectsLinks.mastermind}">Mastermind</a></em></u>`,
-    tasks: [
-      "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
-      "Entraînement sur la logique et l'ordre d'exécution",
-    ],
-  },
+  // {
+  //   project_description: `Réalisation d'un <u><em><a href="${projectsLinks.quiz}">quizz</a></em></u>`,
+  //   tasks: [
+  //     "Équipe de 4 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
+  //     "Implémentation d'une application dépendant d'un <strong>timer</strong>",
+  //   ],
+  // },
+  // {
+  //   project_description: `Réalisation d'un <u><em><a href="${projectsLinks.morse_translator}">traducteur Morse</a></em></u>`,
+  //   tasks: [
+  //     "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+  //     "Manipulation de structures de données telles que des dictionnaires",
+  //   ],
+  // },
+  // {
+  //   project_description: `Réalisation du jeu <u><em><a href="${projectsLinks.mastermind}">Mastermind</a></em></u>`,
+  //   tasks: [
+  //     "Travail personnel <strong>|</strong> 1 semaine <strong>|</strong> HTML, CSS, JavaScript",
+  //     "Entraînement sur la logique et l'ordre d'exécution",
+  //   ],
+  // },
 ];
 
 const educationList = [
