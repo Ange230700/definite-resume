@@ -5,14 +5,14 @@ import {
   generateSkillsSection,
   generateExperiencesSection,
   generateEducationSection,
-  generateHobbiesSection,
+  // generateHobbiesSection,
   generateIntroductionSection,
 } from "../components/functional.js";
 import {
   addNewContentToHtmlElement,
   setEducationSection,
   setExperiencesSection,
-  setHobbiesSection,
+  // setHobbiesSection,
   setIntroductionSection,
   setResumeHeader,
   setSkillsSection,
@@ -29,7 +29,7 @@ function handleResumeContentLoading() {
       ${generateSkillsSection()}
       ${generateExperiencesSection()}
       ${generateEducationSection()}
-      ${generateHobbiesSection()}
+      ${/*generateHobbiesSection()*/ ""}
     `,
   );
 
@@ -39,7 +39,7 @@ function handleResumeContentLoading() {
   setSkillsSection();
   setExperiencesSection();
   setEducationSection();
-  setHobbiesSection();
+  // setHobbiesSection();
 }
 
 export { handleResumeContentLoading };
